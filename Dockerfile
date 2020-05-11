@@ -1,2 +1,2 @@
 FROM httpd:latest
-RUN cp ${ROOT}/var/www/html/ /usr/local/apache2/htdocs/
+RUN cp ${basedir}/var/www/html/ /usr/local/apache2/htdocs/
