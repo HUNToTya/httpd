@@ -1,2 +1,2 @@
 FROM httpd:latest
-COPY /home/sis/temp/ /usr/local/apache2/htdocs/
+RUN cp /home/sis/temp/ /usr/local/apache2/htdocs/
